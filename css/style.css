@@ -1,0 +1,100 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* colors
+#EAAA2A
+#1C2226
+#F7DE4F
+
+*/
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+     background-color: #F7DE4F;
+     font-family: 'Lato', sans-serif;
+     width: 80%;
+     align-items: center;
+     display: flex;
+     background: #F7DE4F;
+     flex-direction: column;
+     justify-content: center;
+     margin: auto;
+}
+
+button {
+     justify-content: center;
+     padding:0.35em 1.2em;
+     border:0.1em solid #EAAA2A;
+     border-radius:0.12em;
+     text-decoration:none;
+     font-family:'Lato', sans-serif;
+     font-weight: 400;
+     color: #1C2226;
+     text-align: center;
+     transition: all 0.2s;
+     margin: auto;
+     }
+
+button:hover{
+     color:#1C2226;
+     background-color:#F7DE4F;
+     }
+
+h2, h3, h4, h5, a, p, footer {
+          padding-bottom: 1rem;
+          padding-top: 1rem;
+          text-decoration: none;
+          color:#1C2226;
+     }
+a:hover{
+     color:aliceblue;
+}
+     h5 {
+          font-style: italic;
+     }
+
+img{
+     width: 100%;
+        }
+
+
+@media (min-width: 800px){
+     body{
+       width: 50%;
+       align-items: center;
+       display: flex;
+       background: #F7DE4F;
+       flex-direction: column;
+       justify-content: center;
+       margin: auto;
+     }
+     
+     img{
+       width: 75%;
+       margin: auto;
+       align-self: center;
+     }
+
+     img.logo{
+          width: 100%;
+          margin: auto;
+     }
+     
+     h2, h3, h4, h5, a, p, footer {
+          padding-bottom: 1rem;
+          padding-top: 1rem;
+          text-decoration: none;
+     }
+   }
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
