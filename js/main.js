@@ -1,7 +1,7 @@
-document.getElementById('linkToAuthor').style.visibility = 'hidden'
+/*document.getElementById('linkToAuthor').style.visibility = 'hidden'
 let h4 = document.querySelectorAll('h4')
-    h4.forEach((h4s) => h4s.style.visibility = 'hidden')
-
+    h4.forEach((h4s) => h4s.style.visibility = 'hidden')*/
+window.onload = (event) => getFetch()
 document.querySelector('button').addEventListener('click', getFetch)
 let ingredients = []
 function getFetch(){
