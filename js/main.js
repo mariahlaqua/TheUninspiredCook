@@ -18,7 +18,7 @@ function getFetch(){
         document.querySelector('p').innerText = data.meals[0].strInstructions
         document.getElementById('linkToAuthor').href = data.meals[0].strSource
         document.getElementById('linkToAuthor').style.visibility = "visible"
-        h4.forEach((h4s) => h4s.style.visibility = 'visible')
+        //h4.forEach((h4s) => h4s.style.visibility = 'visible')
        
        //object.entries returns an array for each key:value pair, forEach, check the value is not empty
        // if true, push to ingredients array
