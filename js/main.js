@@ -1,6 +1,9 @@
-/*document.getElementById('linkToAuthor').style.visibility = 'hidden'
-let h4 = document.querySelectorAll('h4')
-    h4.forEach((h4s) => h4s.style.visibility = 'hidden')*/
+/*****
+ * This code is pretty bad, and I'm scared every time I look at it.
+ * I am reworking this project in React.js. When it is complete,
+ * I will link each project's respective README's to each other.
+ * 
+ */
 window.onload = (event) => getFetch()
 document.querySelector('button').addEventListener('click', getFetch)
 let ingredients = []
